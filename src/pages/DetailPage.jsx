@@ -7,6 +7,7 @@ import Loader from "../components/Loader";
 import DetailDisplay from "../components/DetailDisplay";
 import millify from "millify";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
+
 import PlayerCard from "../components/PlayerCard";
 
 const DetailPage = () => {
@@ -31,9 +32,9 @@ const DetailPage = () => {
       {movie && (
         <div>
           {/* üst alan */}
-          <div className="relative">
+          <div className="relative h-[30vh]">
             <img
-              className=" object-cover w-full h-full"
+              className=" object-contain w-full h-full"
               src={baseImgUrl + movie.backdrop_path}
               alt=""
             />
@@ -55,7 +56,7 @@ const DetailPage = () => {
                 data={movie.production_companies}
               />
               <DetailDisplay
-                title="Çekildiği Ülkeler"
+                title="Filmin Çekildiği Ülkeler"
                 data={movie.production_countries}
               />
             </div>

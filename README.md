@@ -1,6 +1,6 @@
 <h2>Netflix Clone</h2>
 
-Bu proje Netflix'in web sitesini clone olarak tasarlanmıştır.
+Bu proje Netflix'in web sitesinin clone'u olarak tasarlanmıştır.
 Projede filmleri kategorisine göre listeleyebilir ve detaylarını inceleyebilirsiniz.
 
 # Kütüphaneler
